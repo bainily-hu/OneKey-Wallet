@@ -18,9 +18,24 @@ Efficiency and secure crypto wallet for Bitcoin, Ethereum and morre.
 ##### Wanna help us to make OneKey global?
 * [Co-Translate](https://www.transifex.com/onekey)
 
-## 🛠️ Build & Run
+## Hardware
+Not only is OneKey's software all open source, but the hardware is also completely open source, from the circuit boards to the 3D structures, and we've opened up all the information so you can print these enclosures and build your own OneKey if you're interested.
 
-------------------------
+![3d_structure.png](https://i.loli.net/2020/12/08/S3FGmUyrVwToIJq.png)
+
+Here is something you need to build your own OneKey:
+
+|  Items   | URL  |  Tips  |
+|  ----  | ----  |  ----  |
+| 📕 Document  | https://github.com/OneKeyHQ/doc| Use it on your 3D Printer |
+| 📦 3D File  | https://github.com/OneKeyHQ/doc/tree/master/docs/3d | STP file, capable with any CAD software |
+| 📟 PCB File | https://github.com/OneKeyHQ/doc/tree/master/docs/pcb | / |
+| 🧩 Secure Element | https://github.com/OneKeyHQ/doc/tree/master/docs/se| / |
+
+
+
+## 🛠️ Build & Run Our Software
+
 
 ### For 🍎 iOS 
 
@@ -72,7 +87,7 @@ It uses the 'Briefcase' project to create an Xcode project which contains within
 
 ------------------------
 
-### For 🤖 Android 
+### For 🤖 Android OS
 
 First, visit https://github.com/OneKeyHQ/electrum/tree/bixin_dev/android
 
@@ -122,7 +137,7 @@ update ID references in the code.
 ------------------------
 
 ## ⚖️ License 
-* see [LICENSE](https://github.com/OneKeyHQ/electrum/blob/bixin_dev/LICENCE) file
+* See [LICENSE](https://github.com/OneKeyHQ/electrum/blob/bixin_dev/LICENCE) 
 
 
 ## 💬 Contact
